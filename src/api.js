@@ -2,7 +2,7 @@
 import { format, add, sub } from "date-fns";
 
 const base_url = 'https://api.rawg.io/api/'
-const key = 'key=03eae3f5665c4efba1dfc5f597846df2'
+const key = `key=${process.env.API_KEY}`
 const adults = 'exclude_parents=true'
 
 //popular-games
