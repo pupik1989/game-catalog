@@ -1,8 +1,8 @@
 
 import { format, add, sub } from "date-fns";
-require('dotenv').config();
 const base_url = 'https://api.rawg.io/api/'
 const key = `key=${process.env.API_KEY}`
+console.log(key)
 const adults = 'exclude_parents=true'
 
 //popular-games
